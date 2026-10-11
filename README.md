@@ -191,9 +191,10 @@ de 500 km, cliente REGULAR o PREMIUM y paquete no frágil.
 | Coverage | ≥ 70 % | 100 % | Cumple |
 | New Code Smells | 0 | 0 | Cumple |
 | Duplicated Lines (%) | ≤ 5 % | 12,4 % | **Falla** |
-| Coverage on New Code (por defecto) | ≥ 80 % | 100 % | Cumple |
-| New Issues (por defecto) | 0 | 0 | Cumple |
-| Duplicated Lines (%) on New Code (por defecto) | ≤ 3 % | 9,0 % | **Falla** |
+
+Las condiciones que SonarQube trae por defecto sobre código nuevo no
+fallaron: el análisis reporta una sola condición incumplida, la de
+duplicación sobre el código total.
 
 **Qué falta y por qué.** SonarQube marca como duplicado el bloque de
 las líneas 4 a 15 de `EnvioEstandarStrategy` y de
